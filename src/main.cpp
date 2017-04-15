@@ -21,6 +21,6 @@ int main() {
 //    return print_size_of_variables();
 //    return print_months();
 //    return print_formattings();
-    return console_ouput();
+    return console_output();
 }
 

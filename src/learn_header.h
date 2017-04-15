@@ -5,6 +5,6 @@
 #include <iomanip>
 int print_months();
 int print_formattings();
-int console_ouput();
+int console_output();
 
 #endif

@@ -17,7 +17,7 @@ int print_formattings() {
 **Print the variables in three columns:
 **Ints, Floats, Doubles
 */
-int console_ouput() {
+int console_output() {
     int a = 45;
     float b = 45.323;
     double c = 45.5468;
