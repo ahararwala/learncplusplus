@@ -26,4 +26,7 @@
 # Executables
 *.exe
 *.out
-*.app
+i*.app
+
+# Idea generated file
+cmake-build-debug/**
