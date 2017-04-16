@@ -44,16 +44,3 @@ int prompt_compute_area() {
     std::cout << "Room area is " << area;
     return 0;
 }
-
-int main ()
-{
-    int FTemp = 0;
-    int CTemp = 0;
-
-    std::cout << "Enter a Farenheit temperature: ";
-    std::cin >> FTemp;
-
-    CTemp = FTemp - 32 / (9/5);
-    std::cout << "\n" << FTemp <<" in Farenheit = "  << CTemp << "in Celsius\n";
-    return 0;
-}
