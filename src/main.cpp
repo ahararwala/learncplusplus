@@ -21,6 +21,12 @@ int main() {
 //    return print_size_of_variables();
 //    return print_months();
 //    return print_formattings();
-    return console_output();
+//    return console_output();
+//    return read_and_write_to_file();
+//    return console_in();
+//    return console_getline();
+//    return console_getname_address();
+//    return string_stream_convert();
+    return prompt_compute_area();
 }
 

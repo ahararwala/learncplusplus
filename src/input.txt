@@ -1,0 +1,4 @@
+This is an input file.
+Which will be read by the program.
+
+Below you see the appended line:
