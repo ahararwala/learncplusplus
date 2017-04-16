@@ -17,7 +17,7 @@ int print_size_of_variables() {
 }
 
 int main() {
-    cout << "Hello world, I am ready for C++\n";
+    cout << "Hello world, I am ready for C++ lesson 1\n";
 //    return print_size_of_variables();
 //    return print_months();
 //    return print_formattings();

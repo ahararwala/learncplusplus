@@ -1,12 +1,12 @@
-project(learn)
+project(lesson2)
 
 cmake_minimum_required (VERSION 3.5)
 
 add_definitions(-std=c++0x)
 
 set(sources
-        src/lesson1/main.cpp
-        src/lesson1/learn_constants.cpp src/lesson1/learn_enums.cpp src/lesson1/learn_formatting.cpp src/lesson1/learn_file_io.cpp src/lesson1/learn_standard_in.cpp src/lesson1/learn_string_stream.cpp)
+        src/lesson2/main.cpp
+        src/lesson2/header_lesson2.h)
 
 add_executable(learn ${sources})
 
