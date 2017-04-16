@@ -10,5 +10,10 @@
 #include <fstream>
 #include <string>
 #include <sstream>
+#include <cmath>
+
+using namespace std;
+
+int learn_arithmetic_operations();
 
 #endif //LESSON1_HEADER_LESSON2_H

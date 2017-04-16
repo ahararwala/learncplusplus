@@ -4,6 +4,5 @@ using namespace std;
 
 int main() {
     cout << "Hello world, I am ready for C++ Lesson2\n";
-    return 0;
+    return learn_arithmetic_operations();
 }
-
