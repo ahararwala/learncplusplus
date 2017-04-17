@@ -1,0 +1,12 @@
+project(lesson3)
+
+cmake_minimum_required (VERSION 3.5)
+
+add_definitions(-std=c++0x)
+
+set(sources
+        src/lesson3/main.cpp
+        src/lesson3/header_lesson3.h src/lesson3/learn_logical_operators.cpp src/lesson3/learn_switch_statement.cpp src/lesson3/learn_for_loop.cpp src/lesson3/learn_while_loop.cpp)
+
+add_executable(learn ${sources})
+
