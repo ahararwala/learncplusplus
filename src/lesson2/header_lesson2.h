@@ -1,7 +1,3 @@
-//
-// Created by Aziz Hararwala on 4/16/17.
-//
-
 #ifndef LESSON1_HEADER_LESSON2_H
 #define LESSON1_HEADER_LESSON2_H
 
@@ -15,5 +11,11 @@
 using namespace std;
 
 int learn_arithmetic_operations();
+
+int implicit_variable_assignments();
+
+int prefix_postfix();
+
+int short_variable_assignment_operators();
 
 #endif //LESSON1_HEADER_LESSON2_H
