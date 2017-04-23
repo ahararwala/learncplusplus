@@ -11,4 +11,5 @@
 
 using namespace std;
 
+int playWithDogs();
 #endif //LESSON8_HEADER_LESSON8_H
