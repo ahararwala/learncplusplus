@@ -12,4 +12,7 @@
 using namespace std;
 
 int playWithDogs();
+void playWithCats();
+int playGameBoard();
+
 #endif //LESSON8_HEADER_LESSON8_H

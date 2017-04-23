@@ -5,5 +5,4 @@ int playWithDogs() {
     dog1.setName("name changed");
     dog1.printInfo();
     dog2.printInfo();
-
 }
