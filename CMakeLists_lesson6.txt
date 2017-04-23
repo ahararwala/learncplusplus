@@ -1,0 +1,22 @@
+project(lesson6)
+
+cmake_minimum_required(VERSION 3.5)
+
+if (APPLE)
+    add_definitions(-DGTEST_USE_OWN_TR1_TUPLE)
+    add_definitions(-D__GLIBCXX__)
+endif (APPLE)
+
+add_definitions(-std=c++0x)
+
+include_directories(src/test/lib/googletest/include )
+
+set(sources
+        src/lesson6/main.cpp
+        src/lesson6/header_lesson6.h src/lesson6/learn_arrays.cpp src/lesson6/learn_multidimensional_arrays.cpp)
+
+add_executable(learn ${sources})
+
+#target_link_libraries(learn gtest gtest_main)
+
+

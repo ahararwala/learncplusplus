@@ -30,3 +30,7 @@ i*.app
 
 # Idea generated file
 cmake-build-debug/**
+
+# My Files
+src/test/**
+*.py
