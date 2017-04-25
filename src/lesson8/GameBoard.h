@@ -10,6 +10,7 @@ public:
     Gameboard();
 
     Gameboard(char (*gameSpace)[4]);
+
     //initialize the board with '-' in all 16 spaces
     void setGameSpace(int row, int column, char value); //x,y,or '-' in each game square
     char getGameSpace(int row, int column);
@@ -38,21 +39,18 @@ char Gameboard::getGameSpace(int row, int column) {
 
 int Gameboard::fourInRow() {
     int count;
-    for(int i=0;i<4; i++)
-    {
+    for (int i = 0; i < 4; i++) {
         count = 0;
-        for(int j=0;j<4; j++)
-        {
-            if(gameSpace[i][j]=='x')
-            {
+        for (int j = 0; j < 4; j++) {
+            if (gameSpace[i][j] == 'x') {
                 count++;
                 //cout<<"count = "<<count;
             }
         }
-        if(count == 4)
+        if (count == 4)
             return 1;
     }
-    if(count == 4)
+    if (count == 4)
         return 1;
     else
         return 0;

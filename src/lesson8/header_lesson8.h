@@ -14,5 +14,6 @@ using namespace std;
 int playWithDogs();
 void playWithCats();
 int playGameBoard();
+int playTicTacToe();
 
 #endif //LESSON8_HEADER_LESSON8_H
